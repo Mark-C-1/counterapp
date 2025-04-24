@@ -1,0 +1,40 @@
+.navbar {
+    background: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-items {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .badge {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+    margin-right: 10px;
+  }
+  
+  .items {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+
+  .cart-items{
+    /* background-color: red; */
+    background: none;
+  }
+  .items{
+    /* margin-right: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    /* height: 100px; */
+    /* width: 100px; */
+
+  }
