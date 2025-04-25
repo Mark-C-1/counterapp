@@ -80,7 +80,10 @@ body {
 
 
   .blue {
-    background-color: #007bff;
+
+
+    background-color: yellow;
+    /* background-color: #0cc2da; */
   }
   
   .counter {
