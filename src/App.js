@@ -40,7 +40,12 @@ function App() {
   };
 
   return (
+    <>
+    
+    
     <div className="app-container">
+    <h1 className="app-title">Counter App</h1>
+      {/* <h1 className="app-title">Counter App</h1> */}
       <NavBar totalItems={counters.filter((c) => c.value > 0).length} />
       
       <div className="top-buttons">
@@ -60,6 +65,7 @@ function App() {
         onDelete={handleDelete}
       />
     </div>
+    </>
   );
 }
 

@@ -8,6 +8,10 @@ body {
     align-items: center;
     height: 100vh;
   }
+  .app-title{
+    font-style: italic;
+    font-weight: bold;
+  }
   
   .app-container {
     background: #e3f7fa;
@@ -35,6 +39,14 @@ body {
   }
   
   .top-buttons {
+    margin-bottom: 20px;
+  }
+
+  .img-class{
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 50%;
     margin-bottom: 20px;
   }
   
