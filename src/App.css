@@ -9,8 +9,9 @@ body {
     height: 100vh;
   }
   .app-title{
-    font-style: italic;
-    font-weight: bold;
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    font-family: "Segoe UI", sans-serif;
   }
   
   .app-container {
@@ -52,12 +53,14 @@ body {
   
   .btn {
     border: none;
-    padding: 10px 12px;
+    /* padding: 10px 12px; */
     margin: 4px;
-    color: white;
+    /* color: white; */
     font-size: 16px;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     cursor: pointer;
+    /* background-color: red; */
+    /* transition: background-color 0.3s ease; */
   }
 /*   
   .green {
@@ -75,8 +78,8 @@ body {
   }
   .btn-green{
     /* background-color: #28a745; */
-    /* size: 100px;
-     */
+    /* size: 100px; */
+    
 
     background: none;
     width: 50px;
@@ -116,6 +119,7 @@ body {
   }
   
   .yellow {
+    color: black;
     background-color: gold;
   }
   
@@ -135,7 +139,34 @@ body {
   }
   
 
-
+@media (max-width: 760px) {
+    .app-container {
+      width: 90%;
+      padding: 20px;
+    }
+    .yellow{
+      /* background-color: black; */
+      color: white;
+    }
+  
+    /* .navbar {
+      flex-direction: column;
+    } */
+  
+    .btn {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    /* .counter {
+      flex-direction: column;
+    } */
+  
+    .value-btn {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
 
 
 
